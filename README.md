@@ -48,6 +48,22 @@ You are a developer tasked with creating a quiz game in Python that presents mul
 
 ## Step 4: Test Your Program
 - Task: Describe the testing process, record errors, and approaches to fix them.
+- Test Case 1:
+Test: Answering all questions correctly.
+Details: Input correct answers for all questions.
+Result: The score should be equal to the total number of questions.
+Error: N/A
+Fix: N/A
+- Test Case 2:
+Test: Answering all questions incorrectly.
+Details: Input incorrect answers for all questions.
+Result: The score should be 0.
+Error: N/A
+Fix: N/A
+Error Handling:
+Error: User inputs an invalid option 
+Details: The program should prompt the user to enter a valid option.
+Fix: Implement a check to ensure the input is one of the valid options (a, b, c, d).
 - Key Takeaways:
   - Comprehensive testing ensures the program works as expected and handles edge cases.
   - Documenting errors and fixes helps in understanding common pitfalls and improving the code.
